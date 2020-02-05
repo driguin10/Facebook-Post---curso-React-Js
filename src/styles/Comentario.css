@@ -1,0 +1,31 @@
+.comentario-users {
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  margin-top: 10px;
+}
+
+.comentario-users > img {
+  width: 34px;
+  height: 34px;
+  border-radius: 20px;
+}
+
+.comentario-users > .comentario-content {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.38;
+  width: 100%;
+  background-color: #e8e7e7;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
+.comentario-users > .comentario-content strong {
+  color: #385898;
+}
+
+.comentario-users > .comentario-content > .texto {
+  height: 100%;
+  padding: 10px;
+}

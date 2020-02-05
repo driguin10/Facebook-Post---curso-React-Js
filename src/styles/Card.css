@@ -1,0 +1,45 @@
+.card {
+  background-color: #f5f6f7;
+  border-radius: 2px 2px 0 0;
+  font-weight: bold;
+  width: 400px;
+  min-height: 50px;
+  margin-top: 15px;
+  border: 1px solid #cecece;
+}
+
+.card > .info-user {
+  display: flex;
+  margin: 10px;
+}
+
+.card > .info-user > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.card > .info-user > .nome-data {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.card > .info-user > .nome-data > #card_nome_user {
+  color: #385898;
+}
+.card > .info-user > .nome-data > #card_data_user {
+  color: #616770;
+  font-size: 12px;
+}
+
+.card > .conteudo-card-user {
+  margin: 10px;
+}
+
+.card > .conteudo-card-user > .texto-card-user {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.38;
+}
